@@ -13,7 +13,7 @@ public class MyDockerController {
 
     @GetMapping("/mydocker/{msg}")
     public String demo(@PathVariable String msg) {
-        return "hi first docker show ! "+msg;
+        return "hi first docker show111 ! "+msg;
     }
 
     @GetMapping("/k8s")
