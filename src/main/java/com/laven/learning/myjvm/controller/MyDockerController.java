@@ -30,6 +30,6 @@ public class MyDockerController {
             e.printStackTrace();
         }
 
-        return "hello k8s!<br/> "+msg;
+        return "hello k8s!modify1<br/> "+msg;
     }
 }
